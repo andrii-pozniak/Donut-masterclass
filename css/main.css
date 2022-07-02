@@ -1,0 +1,22 @@
+.header_btn {
+  width: 30px;
+  padding: 0;
+  border: 0;
+}
+.header_btn-svg {
+  width: 30px;
+  height: 16px;
+}
+.header_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}/*# sourceMappingURL=main.css.map */
