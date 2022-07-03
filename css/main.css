@@ -1,11 +1,62 @@
+body {
+  color: #2E2520;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
 .header_btn {
   width: 30px;
+  height: 16px;
+  margin-left: auto;
   padding: 0;
   border: 0;
 }
 .header_btn-svg {
   width: 30px;
   height: 16px;
+  fill: #2E2520;
+}
+.header_logo {
+  fill: #2E2520;
 }
 .header_container {
   display: -webkit-box;
@@ -19,4 +70,91 @@
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.hero_title {
+  font-family: "Caveat Brush";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+  color: #2E2520;
+}
+.hero_btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  width: 145px;
+  height: 40px;
+  border-radius: 25px;
+  font-family: "Caveat Brush";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #AB816C;
+}
+.hero_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+}
+.hero_svg {
+  width: 16px;
+  height: 16px;
+}
+.hero_list:not(:last-child) {
+  margin-right: 16px;
+}
+.hero_logo:hover, .hero_logo:focus {
+  fill: #FFFFFF;
+}
+.hero_text {
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 1.2px;
+  text-align: center;
+  color: #2E2520;
+}
+
+.about {
+  padding: 16px 0;
+}
+.about_img {
+  width: 100vw;
+}
+.about_more {
+  font-family: "Caveat Brush";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  color: #AB816C;
+}
+
+.second {
+  margin-bottom: 8px;
+  font-family: "Caveat Brush";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #2E2520;
+}
+
+.text {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
 }/*# sourceMappingURL=main.css.map */
