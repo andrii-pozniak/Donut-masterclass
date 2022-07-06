@@ -43,6 +43,10 @@ button {
   cursor: pointer;
 }
 
+.header {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .header_btn {
   width: 30px;
   height: 16px;
@@ -66,12 +70,14 @@ button {
 
 .container {
   width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.hero {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .hero_title {
   font-family: "Caveat Brush";
   font-style: normal;
@@ -126,7 +132,7 @@ button {
 }
 
 .about {
-  padding: 16px 0;
+  padding: 16px 20px;
 }
 .about_img {
   width: 100vw;
@@ -157,4 +163,46 @@ button {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+}
+
+.program {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.program_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #2E2520;
+}
+.program_item {
+  margin-bottom: 16px;
+}
+.program_item-veiw {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: calc((100% - 30px) / 2);
+}
+.program_svg {
+  position: absolute;
+  bottom: 0;
+  width: 18px;
+  height: 18px;
+}
+.program_ring {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 130px;
+  height: 130px;
+  fill: #FEF3E4;
+}
+.program_list-veiw {
+  position: relative;
+}
+.program_list-img {
+  position: absolute;
 }/*# sourceMappingURL=main.css.map */

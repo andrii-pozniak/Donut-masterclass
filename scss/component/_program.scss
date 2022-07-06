@@ -1,0 +1,42 @@
+.program {
+    padding-left: 20px;
+    padding-right: 20px;
+    &_text {
+        
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2;
+
+        color: $main-color;
+    }
+    &_item {
+        margin-bottom: 16px;
+    }
+    &_item-veiw {
+        display: flex;
+        flex-wrap: wrap;
+        width: calc((100% - 30px) / 2);
+    }
+    &_svg {
+        position: absolute;
+        bottom: 0;
+        width: 18px;
+        height: 18px;
+    }
+    &_ring {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        width: 130px;
+        height: 130px;
+        fill: $background-color;
+    }
+    &_list-veiw {
+        position: relative;
+    }
+    &_list-img {
+        position: absolute;
+
+    }
+
+}
